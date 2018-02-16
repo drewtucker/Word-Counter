@@ -20,5 +20,10 @@ namespace WordCounterApp.Models
       return _wordCount;
 
     }
+
+    public static void ClearAll()
+    {
+      _wordCount = 0;
+    }
   }
 }

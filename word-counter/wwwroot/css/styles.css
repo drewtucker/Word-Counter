@@ -1,0 +1,20 @@
+.jumbotron {
+  background-color: DarkSlateBlue;
+  box-shadow: 0px 0px 10px 5px #000;
+  color: white;
+  text-align: center;
+}
+
+
+#entryForm {
+  padding-left: 10vw;
+  float: right;
+}
+
+.col-md-5 {
+  position: absolute;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 10px 5px #000;
+  background-color: DarkSlateBlue;
+
+}

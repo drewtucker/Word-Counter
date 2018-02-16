@@ -19,5 +19,17 @@ namespace WordCounterApp.Tests
 
            Assert.IsInstanceOfType(result, typeof(ViewResult));
        }
+
+       [TestMethod]
+        public void Index_HasCorrectModelType_Int()
+        {
+            HomeController controller = new HomeController();
+            IActionResult actionResult = controller.Index();
+            ViewResult indexView = controller.Index() as ViewResult;
+
+            var result = indexView.ViewData.Model;
+
+            Assert.IsInstanceOfType(result, typeof(int));
+        }
     }
 }

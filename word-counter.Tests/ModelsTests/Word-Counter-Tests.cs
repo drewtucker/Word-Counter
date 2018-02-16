@@ -10,7 +10,7 @@ namespace WordCounterApp.Tests
   {
     public void Dispose()
     {
-      WordCounter.ClearAll();
+      RepeatCounter.ClearAll();
     }
     [TestMethod]
     public void GetInputLetters_ReturnWordCount_Int()
@@ -18,7 +18,7 @@ namespace WordCounterApp.Tests
       string TestLetter =  "A";
       string TestSentence = "A";
       int TestScore = 1;
-      int CountedSentence = WordCounter.WordCountCalc(TestLetter, TestSentence);
+      int CountedSentence = RepeatCounter.WordCountCalc(TestLetter, TestSentence);
       Assert.AreEqual(TestScore, CountedSentence);
     }
 
@@ -28,7 +28,17 @@ namespace WordCounterApp.Tests
       string TestWord =  "Hello";
       string TestSentence = "Hello World!";
       int TestScore = 1;
-      int CountedSentence = WordCounter.WordCountCalc(TestWord, TestSentence);
+      int CountedSentence = RepeatCounter.WordCountCalc(TestWord, TestSentence);
+      Assert.AreEqual(TestScore, CountedSentence);
+    }
+
+    [TestMethod]
+    public void GetInputWords_ReturnWordCountMultiple_Int()
+    {
+      string TestWord =  "and";
+      string TestSentence = "You and I and my friend and us";
+      int TestScore = 3;
+      int CountedSentence = RepeatCounter.WordCountCalc(TestWord, TestSentence);
       Assert.AreEqual(TestScore, CountedSentence);
     }
   }

@@ -4,21 +4,22 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WordCounterApp.Models
 {
-  public class WordCounter
+  public class RepeatCounter
   {
     private static int _wordCount;
 
     public static int WordCountCalc(string userWord, string userSentence)
     {
       userWord = userWord.ToLower();
-      userSentence = userSentence.ToLower();
-      if(userSentence.Contains(userWord))
+      string[] userSentenceArray = userSentence.ToLower().Split();
+      foreach(string word in userSentenceArray)
       {
-        _wordCount += 1;
-        return _wordCount;
+        if(word == userWord)
+        {
+          _wordCount += 1;
+        }
       }
       return _wordCount;
-
     }
 
     public static void ClearAll()

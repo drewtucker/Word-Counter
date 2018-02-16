@@ -16,6 +16,8 @@ A website that allows users to enter both a word and a sentence. When both are s
 
 * Program detects that a full word is matching in both the inputted word and inputted sentence. This is the next easiest test to run. Input: Word-"Hello", Sentence-"Hello World!", Result: "1"
 
+* Program detects that a full word has been inputted multiple times in the same sentence. This is the final logical test of the function. Input: Word-"and", Sentence-"You and I and my friend", Result: "2"
+
 * If no input word or sentence has been given, and the submit button is clicked, the user will then be prompted to fill out both fields. Input: Word-"", Sentence-"", Result: "Please enter a word and a sentence."
 
 * Since this program is designed to check for words and not for numbers, the user will receive an error message if anything other than letters are inputted. A single number input is the easiest way to test this. Input: Word-"1", Sentence-"1", Result: "Numbers not accepted, please enter letters only."

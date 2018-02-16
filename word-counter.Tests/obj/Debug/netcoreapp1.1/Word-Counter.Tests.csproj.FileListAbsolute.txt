@@ -1,0 +1,14 @@
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter.Tests\bin\Debug\netcoreapp1.1\Word-Counter.Tests.deps.json
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter.Tests\bin\Debug\netcoreapp1.1\Word-Counter.Tests.runtimeconfig.json
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter.Tests\bin\Debug\netcoreapp1.1\Word-Counter.Tests.runtimeconfig.dev.json
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter.Tests\obj\Debug\netcoreapp1.1\Word-Counter.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter.Tests\obj\Debug\netcoreapp1.1\Word-Counter.Tests.AssemblyInfo.cs
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter.Tests\bin\Debug\netcoreapp1.1\Word-Counter.Tests.dll
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter.Tests\bin\Debug\netcoreapp1.1\Word-Counter.Tests.pdb
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter.Tests\bin\Debug\netcoreapp1.1\Word-Counter.dll
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter.Tests\bin\Debug\netcoreapp1.1\Word-Counter.pdb
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter.Tests\obj\Debug\netcoreapp1.1\Word-Counter.Tests.dll
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter.Tests\obj\Debug\netcoreapp1.1\Word-Counter.Tests.pdb

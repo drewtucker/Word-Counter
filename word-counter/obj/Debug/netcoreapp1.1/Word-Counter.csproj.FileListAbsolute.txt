@@ -1,0 +1,9 @@
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter\bin\Debug\netcoreapp1.1\Word-Counter.deps.json
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter\bin\Debug\netcoreapp1.1\Word-Counter.runtimeconfig.json
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter\bin\Debug\netcoreapp1.1\Word-Counter.runtimeconfig.dev.json
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter\obj\Debug\netcoreapp1.1\Word-Counter.csproj.CoreCompileInputs.cache
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter\obj\Debug\netcoreapp1.1\Word-Counter.AssemblyInfo.cs
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter\bin\Debug\netcoreapp1.1\Word-Counter.dll
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter\bin\Debug\netcoreapp1.1\Word-Counter.pdb
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter\obj\Debug\netcoreapp1.1\Word-Counter.dll
+C:\Users\Dtuck\Desktop\projects\C#\word-counter.solution\word-counter\obj\Debug\netcoreapp1.1\Word-Counter.pdb

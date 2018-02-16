@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="~/css/bootstrap.css">
+    <title>New Entry</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Word Count</h1>
+      </div>
+      <form action="/" method="post" >
+      <input id="userWord" pattern="[A-Za-z]{1,30}" title="Please enter a single word, no spaces or non-letter characters."  type="text" name="userWord" placeholder="Enter a word" required="true">
+      <input id="userSentence" pattern="[A-Za-z ]{1,40}" title="Please enter a sentence. Non letter characters not allowed."  type="text" name="userSentence" placeholder="Enter a sentence" required="true">
+      <button type="submit" class="btn btn-success" name="button">Submit!</button>
+    </form>
+    </div>
+
+  </body>
+</html>

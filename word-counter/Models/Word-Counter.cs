@@ -24,17 +24,17 @@ namespace WordCounterApp.Models
       return _wordCount;
     }
 
-    public int GetWordCount()
+    public static int GetWordCount()
     {
       return _wordCount;
     }
 
-    public string GetUserWord()
+    public static string GetUserWord()
     {
       return _userWord;
     }
 
-    public string GetUserSentence()
+    public static string GetUserSentence()
     {
       return _userSentence;
     }

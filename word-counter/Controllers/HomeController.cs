@@ -19,6 +19,19 @@ namespace WordCounterApp.Controllers
       return View();
     }
 
+    [HttpPost("/")]
+    public ActionResult Display()
+    {
+      RepeatCounter.ClearAll();
+      RepeatCounter newCount = new RepeatCounter();
+      string userWord = (Request.Form["userWord"]);
+      string userSentence = (Request.Form["userSentence"]);
+
+      int result = RepeatCounter.WordCountCalc(userWord, userSentence);
+
+      return View("Index", newCount);
+    }
+
 
 
   }

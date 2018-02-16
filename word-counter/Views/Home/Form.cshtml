@@ -8,11 +8,12 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Word Count</h1>
+        <h1><em>Word</em>Count</h1>
+        <p>Enter a word and a sentence below and our state-of-the-art WordCount&#8482; AI will run them through our complex Algorithms to get you an accurate response. Upgrade to WordCountPro for only $19.99/month! </p>
       </div>
       <form action="/" method="post" >
-      <input id="userWord" pattern="[A-Za-z]{1,30}" title="Please enter a single word, no spaces or non-letter characters."  type="text" name="userWord" placeholder="Enter a word" required="true">
-      <input id="userSentence" pattern="[A-Za-z ]{1,40}" title="Please enter a sentence. Non letter characters not allowed."  type="text" name="userSentence" placeholder="Enter a sentence" required="true">
+      <input id="userWord" pattern="[A-Za-z?''""]{1,30}" title="Please enter a single word, no spaces or non-letter characters."  type="text" name="userWord" placeholder="Enter a word" required="true">
+      <input id="userSentence" pattern="[A-Za-z?''"" ]{1,40}" title="Please enter a sentence. Non letter characters not allowed."  type="text" name="userSentence" placeholder="Enter a sentence" required="true">
       <button type="submit" class="btn btn-success" name="button">Submit!</button>
     </form>
     </div>

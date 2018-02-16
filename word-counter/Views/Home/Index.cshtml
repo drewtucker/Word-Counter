@@ -9,11 +9,13 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Word Count</h1>
+        <h1><em>Word</em>Count</h1>
+        <br>
+        <p><em>Isn't reading a pain? Who has time to search through every word in a sentence to see how many times it shows up? And Counting? No thanks. Thankfully WordCount is here to help.</em><p>
       </div>
       @if (Model != null)
       {
-        <h3>Your sentence contains @RepeatCounter.GetWordCount() instances of your word.</h3>
+        <h3>Your sentence contains @RepeatCounter.GetWordCount() instance(s) of your word.</h3>
       }
       <h2><a href="/form">Enter New:</a> </h2>
     </div>

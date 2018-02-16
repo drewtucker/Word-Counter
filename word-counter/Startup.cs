@@ -35,7 +35,7 @@ namespace WordCounterApp
       });
       app.Run(async (context) =>
       {
-        await context.Response.WriteAsync("Nope!");
+        await context.Response.WriteAsync("Whoops!");
       });
     }
   }

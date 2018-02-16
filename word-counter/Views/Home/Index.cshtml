@@ -15,6 +15,7 @@
       </div>
       @if (Model != null)
       {
+        <h6><strong>Word:</strong> "@RepeatCounter.GetUserWord()" <strong>Sentence:</strong> "@RepeatCounter.GetUserSentence()"</h6>
         <h3>Your sentence contains @RepeatCounter.GetWordCount() instance(s) of your word.</h3>
       }
       <h2><a href="/form">Enter New:</a> </h2>

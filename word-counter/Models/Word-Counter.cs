@@ -12,6 +12,8 @@ namespace WordCounterApp.Models
 
     public static int WordCountCalc(string userWord, string userSentence)
     {
+      _userWord = userWord;
+      _userSentence = userSentence;
       userWord = userWord.ToLower();
       string[] userSentenceArray = userSentence.ToLower().Split();
       foreach(string word in userSentenceArray)
